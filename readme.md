@@ -2,5 +2,5 @@ Hello, here are a few examples that you can use to learn properly script in Batt
 
 # Examples
 - ## [UI](./UI/)
-  - [Basic](./UI/basic/basic.ts)
-  - [Counter](./UI/counter/counter.ts)
+  - [Basic](./Examples/UI/basic/basic.ts)
+  - [Counter](./Examples/UI/counter/counter.ts)
