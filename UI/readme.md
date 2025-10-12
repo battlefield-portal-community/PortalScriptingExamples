@@ -6,3 +6,8 @@ Currently we have the following tutorials
 ### Basic. Displays a "Hello, World" on screen.
 
 ![basic_tut_output](./static/basic.png)
+
+
+### Counter. Updates a counter every second.
+
+![counter](./static/counter.gif)
