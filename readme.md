@@ -4,3 +4,4 @@ Hello, here are a few examples that you can use to learn properly script in Batt
 - ## [UI](./UI/)
   - [Basic](./Examples/UI/basic/basic.ts)
   - [Counter](./Examples/UI/counter/counter.ts)
+  - [Text Guide](./UI/text-guide/text-guide.md) - How to add text to UI using strings.json
