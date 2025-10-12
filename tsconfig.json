@@ -6,11 +6,11 @@
     "strict": true,
     "outDir": "dist",
     "types": [
-      "./types"
+      "./lib/types"
     ],
     "paths": {
       "modlib": [
-        "./modlib"
+        "./lib/modlib"
       ]
     }
   }
