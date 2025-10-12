@@ -1,0 +1,10 @@
+{
+  "_comment": "text-guide-example.strings.json",
+  "_description": "All UI text must be defined here for localization support",
+  
+  "title": "Text Examples Demo",
+  
+  "score_display": "Score: {}",
+  "level_and_score": "Level {} - Score: {}",
+  "level_up": "Level Up! Now Level {}"
+}

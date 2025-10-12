@@ -11,3 +11,7 @@ Currently we have the following tutorials
 ### Counter. Updates a counter every second.
 
 ![counter](./static/counter.gif)
+
+### Text Guide. How to add text to UI using strings.json
+
+![text-guide](./static/text-guide.gif)
