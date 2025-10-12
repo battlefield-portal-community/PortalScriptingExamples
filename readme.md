@@ -2,4 +2,4 @@ Hello, here are a few examples that you can use to learn properly script in Batt
 
 # Examples
 - ## UI
-  - [Basic](./UI/basic.ts)
+  - [Basic](./UI/basic/basic.ts)
