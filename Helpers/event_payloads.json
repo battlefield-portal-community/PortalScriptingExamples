@@ -1,5 +1,5 @@
 {
-    "Events": [
+    "EventPayloads": [
         "EventActionStation",
         "EventAreaTrigger",
         "EventAwarenessState",
