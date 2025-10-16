@@ -1,0 +1,15 @@
+{
+    "ui": {
+        "messages": { 
+            "errors": { 
+                "invalid_button": "The button you pressed is invalid"
+            },
+            "pressed": "You pressed {}!"
+        },
+        "buttons": { 
+            "close": "X",
+            "button_option_1": "Hello World",
+            "button_option_2": "Foo bar"
+        }
+    }
+}
