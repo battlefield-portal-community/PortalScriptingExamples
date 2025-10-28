@@ -1,7 +1,7 @@
 import json
 import re
 
-def convert_events_to_json(input_file='events.txt', output_file='events.json'):
+def convert_events_to_json(input_file='events.txt', output_file='event_payloads.json'):
     events = []
     try:
         with open(input_file, 'r') as f:

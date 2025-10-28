@@ -1,11 +1,11 @@
-const excludedKeys = ["Abortfunction", "AbortIffunction", "Abort", "AbortIf", "Break", "Continue", "Else", "ElseIf", "End"];
+const excludedKeys = ["Abort", "AbortIf", "Break", "Continue", "Else", "ElseIf", "End", "Skip", "SkipIf"];
 for (const key of Object.getOwnPropertyNames(mod)) {
     // @ts-ignore
     const value = mod[key];
 
     if (typeof value === 'function' && !excludedKeys.includes(key) && !key.endsWith("Item") && !key.startsWith("Event")) {
         try {
-            value()
+            value() // value(2)
         } catch (e) {
             // @ts-ignore
             console.error(`Error executing function '${key}':`, e.message);

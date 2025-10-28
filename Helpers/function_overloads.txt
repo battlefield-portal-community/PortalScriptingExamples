@@ -187,7 +187,7 @@ Error info:
 Exception: NoMatchingOverload
 Function: AddEquipment
 Error info: 
-	Provided parameters () do not match any overload. Function supports the following overloads: (Player, Weapons), (Player, Gadgets), (Player, Weapons, WeaponPackage), (Player, Weapons, InventorySlots), (Player, Gadgets, InventorySlots), (Player, Weapons, WeaponPackage, InventorySlots).
+	Provided parameters () do not match any overload. Function supports the following overloads: (Player, Weapons), (Player, Gadgets), (Player, Weapons, WeaponPackage), (Player, Weapons, InventorySlots), (Player, Gadgets, InventorySlots), (Player, Weapons, WeaponPackage, InventorySlots), (Player, ArmorTypes).
 ========== End ==========
 
 
@@ -316,6 +316,14 @@ Exception: NoMatchingOverload
 Function: AutoPlayers_MoveObjective
 Error info: 
 	Provided parameters () do not match any overload. Function supports the following overloads: (Player, Vector, String, Number).
+========== End ==========
+
+
+========== Start ==========
+Exception: NoMatchingOverload
+Function: AutoPlayers_RunActionCommand
+Error info: 
+	Provided parameters () do not match any overload. Function supports the following overloads: (String).
 ========== End ==========
 
 
@@ -523,7 +531,7 @@ Error info:
 Exception: NoMatchingOverload
 Function: EnableScreenEffect
 Error info: 
-	Provided parameters () do not match any overload. Function supports the following overloads: (Player, ScreenEffect, Boolean).
+	Provided parameters () do not match any overload. Function supports the following overloads: (Player, ScreenEffect, Boolean), (Player, ScreenEffects, Boolean).
 ========== End ==========
 
 
@@ -739,7 +747,7 @@ Error info:
 Exception: NoMatchingOverload
 Function: PlaySound
 Error info: 
-	Provided parameters () do not match any overload. Function supports the following overloads: (Number, Number, Team), (Number, Number, Squad), (Number, Number, Player), (Number, Number), (SFX, Number, Team), (SFX, Number, Squad), (SFX, Number, Player), (SFX, Number), (SFX, Number, Vector, Number, Team), (SFX, Number, Vector, Number, Squad), (SFX, Number, Vector, Number, Player), (SFX, Number, Vector, Number).
+	Provided parameters () do not match any overload. Function supports the following overloads: (Number, Number, Team), (Number, Number, Squad), (Number, Number, Player), (Number, Number), (Object, Number, Team), (Object, Number, Squad), (Object, Number, Player), (Object, Number), (Object, Number, Vector, Number, Team), (Object, Number, Vector, Number, Squad), (Object, Number, Vector, Number, Player), (Object, Number, Vector, Number), (Number, Number, Vector, Number), (Number, Number, Vector, Number, Team), (Number, Number, Vector, Number, Squad), (Number, Number, Vector, Number, Player).
 ========== End ==========
 
 
@@ -755,7 +763,7 @@ Error info:
 Exception: NoMatchingOverload
 Function: PlayVO
 Error info: 
-	Provided parameters () do not match any overload. Function supports the following overloads: (VO, VoiceOverEvents2D, VoiceOverFlags), (VO, VoiceOverEvents2D, VoiceOverFlags, Player), (VO, VoiceOverEvents2D, VoiceOverFlags, Squad), (VO, VoiceOverEvents2D, VoiceOverFlags, Team).
+	Provided parameters () do not match any overload. Function supports the following overloads: (Number, VoiceOverEvents2D, VoiceOverFlags), (Number, VoiceOverEvents2D, VoiceOverFlags, Player), (Number, VoiceOverEvents2D, VoiceOverFlags, Squad), (Number, VoiceOverEvents2D, VoiceOverFlags, Team), (Object, VoiceOverEvents2D, VoiceOverFlags), (Object, VoiceOverEvents2D, VoiceOverFlags, Player), (Object, VoiceOverEvents2D, VoiceOverFlags, Squad), (Object, VoiceOverEvents2D, VoiceOverFlags, Team).
 ========== End ==========
 
 
@@ -1130,14 +1138,6 @@ Error info:
 ========== Start ==========
 Exception: NoMatchingOverload
 Function: SetRingOfFireDamageAmount
-Error info: 
-	Provided parameters () do not match any overload. Function supports the following overloads: (RingOfFire, Number).
-========== End ==========
-
-
-========== Start ==========
-Exception: NoMatchingOverload
-Function: SetRingOfFireShrinkTime
 Error info: 
 	Provided parameters () do not match any overload. Function supports the following overloads: (RingOfFire, Number).
 ========== End ==========
@@ -1667,7 +1667,7 @@ Error info:
 Exception: NoMatchingOverload
 Function: SpawnLoot
 Error info: 
-	Provided parameters () do not match any overload. Function supports the following overloads: (LootSpawner, PrimaryWeapons), (LootSpawner, SecondaryWeapons), (LootSpawner, OpenGadgets), (LootSpawner, Throwables), (LootSpawner, MeleeWeapons), (LootSpawner, MiscGadgets), (LootSpawner, AmmoTypes), (LootSpawner, Weapons), (LootSpawner, Gadgets).
+	Provided parameters () do not match any overload. Function supports the following overloads: (LootSpawner, PrimaryWeapons), (LootSpawner, SecondaryWeapons), (LootSpawner, OpenGadgets), (LootSpawner, Throwables), (LootSpawner, MeleeWeapons), (LootSpawner, MiscGadgets), (LootSpawner, Weapons), (LootSpawner, Gadgets), (LootSpawner, AmmoTypes), (LootSpawner, ArmorTypes).
 ========== End ==========
 
 
@@ -2777,6 +2777,14 @@ Error info:
 
 ========== Start ==========
 Exception: NoMatchingOverload
+Function: IsSoldierClass
+Error info: 
+	Provided parameters () do not match any overload. Function supports the following overloads: (Player, SoldierClass).
+========== End ==========
+
+
+========== Start ==========
+Exception: NoMatchingOverload
 Function: IsTrueForAll
 Error info: 
 	Provided parameters () do not match any overload. Function supports the following overloads: (Array, AnyType).
@@ -3126,3 +3134,210 @@ Error info:
 	Provided parameters () do not match any overload. Function supports the following overloads: (Vector).
 ========== End ==========
 
+
+========== Start ==========
+Exception: NoMatchingOverload
+Function: DeleteAllUIWidgets
+Error info: 
+	Provided parameters () do not match any overload. Function supports the following overloads: ().
+========== End ==========
+
+
+========== Start ==========
+Exception: NoMatchingOverload
+Function: DeployAllPlayers
+Error info: 
+	Provided parameters () do not match any overload. Function supports the following overloads: ().
+========== End ==========
+
+
+========== Start ==========
+Exception: NoMatchingOverload
+Function: DisablePlayerJoin
+Error info: 
+	Provided parameters () do not match any overload. Function supports the following overloads: ().
+========== End ==========
+
+
+========== Start ==========
+Exception: NoMatchingOverload
+Function: ResetGameModeTime
+Error info: 
+	Provided parameters () do not match any overload. Function supports the following overloads: ().
+========== End ==========
+
+
+========== Start ==========
+Exception: NoMatchingOverload
+Function: UIDumpTree
+Error info: 
+	Provided parameters () do not match any overload. Function supports the following overloads: ().
+========== End ==========
+
+
+========== Start ==========
+Exception: NoMatchingOverload
+Function: UndeployAllPlayers
+Error info: 
+	Provided parameters () do not match any overload. Function supports the following overloads: ().
+========== End ==========
+
+
+========== Start ==========
+Exception: NoMatchingOverload
+Function: UnspawnAllLoot
+Error info: 
+	Provided parameters () do not match any overload. Function supports the following overloads: ().
+========== End ==========
+
+
+========== Start ==========
+Exception: NoMatchingOverload
+Function: AllCapturePoints
+Error info: 
+	Provided parameters () do not match any overload. Function supports the following overloads: ().
+========== End ==========
+
+
+========== Start ==========
+Exception: NoMatchingOverload
+Function: AllObjectsOfType
+Error info: 
+	Provided parameters () do not match any overload. Function supports the following overloads: ().
+========== End ==========
+
+
+========== Start ==========
+Exception: NoMatchingOverload
+Function: AllPlayers
+Error info: 
+	Provided parameters () do not match any overload. Function supports the following overloads: ().
+========== End ==========
+
+
+========== Start ==========
+Exception: NoMatchingOverload
+Function: AllVehicles
+Error info: 
+	Provided parameters () do not match any overload. Function supports the following overloads: ().
+========== End ==========
+
+
+========== Start ==========
+Exception: NoMatchingOverload
+Function: BackwardVector
+Error info: 
+	Provided parameters () do not match any overload. Function supports the following overloads: ().
+========== End ==========
+
+
+========== Start ==========
+Exception: NoMatchingOverload
+Function: CurrentArrayElement
+Error info: 
+	Provided parameters () do not match any overload. Function supports the following overloads: ().
+========== End ==========
+
+
+========== Start ==========
+Exception: NoMatchingOverload
+Function: DownVector
+Error info: 
+	Provided parameters () do not match any overload. Function supports the following overloads: ().
+========== End ==========
+
+
+========== Start ==========
+Exception: NoMatchingOverload
+Function: EmptyArray
+Error info: 
+	Provided parameters () do not match any overload. Function supports the following overloads: ().
+========== End ==========
+
+
+========== Start ==========
+Exception: NoMatchingOverload
+Function: ForwardVector
+Error info: 
+	Provided parameters () do not match any overload. Function supports the following overloads: ().
+========== End ==========
+
+
+========== Start ==========
+Exception: NoMatchingOverload
+Function: CreateNewWeaponPackage
+Error info: 
+	Provided parameters () do not match any overload. Function supports the following overloads: ().
+========== End ==========
+
+
+========== Start ==========
+Exception: NoMatchingOverload
+Function: GetMatchTimeElapsed
+Error info: 
+	Provided parameters () do not match any overload. Function supports the following overloads: ().
+========== End ==========
+
+
+========== Start ==========
+Exception: NoMatchingOverload
+Function: GetMatchTimeRemaining
+Error info: 
+	Provided parameters () do not match any overload. Function supports the following overloads: ().
+========== End ==========
+
+
+========== Start ==========
+Exception: NoMatchingOverload
+Function: GetRoundTime
+Error info: 
+	Provided parameters () do not match any overload. Function supports the following overloads: ().
+========== End ==========
+
+
+========== Start ==========
+Exception: NoMatchingOverload
+Function: GetTargetScore
+Error info: 
+	Provided parameters () do not match any overload. Function supports the following overloads: ().
+========== End ==========
+
+
+========== Start ==========
+Exception: NoMatchingOverload
+Function: GetUIRoot
+Error info: 
+	Provided parameters () do not match any overload. Function supports the following overloads: ().
+========== End ==========
+
+
+========== Start ==========
+Exception: NoMatchingOverload
+Function: LeftVector
+Error info: 
+	Provided parameters () do not match any overload. Function supports the following overloads: ().
+========== End ==========
+
+
+========== Start ==========
+Exception: NoMatchingOverload
+Function: Pi
+Error info: 
+	Provided parameters () do not match any overload. Function supports the following overloads: ().
+========== End ==========
+
+
+========== Start ==========
+Exception: NoMatchingOverload
+Function: UpVector
+Error info: 
+	Provided parameters () do not match any overload. Function supports the following overloads: ().
+========== End ==========
+
+
+========== Start ==========
+Exception: NoMatchingOverload
+Function: RightVector
+Error info: 
+	Provided parameters () do not match any overload. Function supports the following overloads: ().
+========== End ==========
